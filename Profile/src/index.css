@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+body{
+    height: 2000px;
+}
+.active{
+    background-color: pink;
+   
+}
