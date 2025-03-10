@@ -24,13 +24,13 @@ const Header = () => {
 </nav>
 
       {/* Mobile Menu Icon */}
-      <div onClick={handleNav} className='md:hidden cursor-pointer z-10 text-white'>
+      <div onClick={handleNav} className='md:hidden cursor-pointer z-50 text-white'>
         {nav ? <AiOutlineClose size={25} /> : <GiHamburgerMenu size={25} />}
       </div>
 
       {/* Mobile Navigation Menu */}
       {nav && (
-        <ul className='md:hidden absolute top-0 left-0 w-full h-screen bg-blue-400 flex flex-col justify-center items-center'>
+        <ul className='md:hidden absolute top-0 left-0 w-full h-screen bg-blue-400 flex flex-col justify-center items-center z-50'>
           <li onClick={handleNav} className='py-6 text-2xl text-white'>Home</li>
           <li onClick={handleNav} className='py-6 text-2xl text-white'>About</li>
           <li onClick={handleNav} className='py-6 text-2xl text-white'>Contact</li>
