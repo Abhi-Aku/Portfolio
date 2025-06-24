@@ -1,13 +1,9 @@
 import React from 'react'
 
-const Footerr = () => {
+export const Footerr = () => {
   return (
     <>
-     <main>
-       <h1>Hello Abhsihek</h1>
-     </main>
+     <p>This is a footer page</p>
     </>
   )
 }
-
-export default Footerr
